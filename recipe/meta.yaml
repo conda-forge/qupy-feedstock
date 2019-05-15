@@ -1,5 +1,5 @@
 {% set name = "qupy" %}
-{% set version = "0.2.1" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/ken-nakanishi/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 78363551d54e94f7cc1cd84f52bfb79442bcc1e03a918f352cf14b86fec86d5d
+  sha256: eab583fa1df6158492c2238c7ccb753ea6ed23f90008f07e58e574594b64fcf3
 
 build:
   noarch: python
